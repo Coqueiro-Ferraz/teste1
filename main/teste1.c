@@ -28,7 +28,7 @@ void morse_S (void)
     int i;
     for(i=0;i<3;i++)
     {
-        pisca_LED(10);
+        pisca_LED(30);
     }
     vTaskDelay(5);
 }
