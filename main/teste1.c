@@ -28,7 +28,7 @@ void morse_S (void)
     int i;
     for(i=0;i<3;i++)
     {
-        pisca_LED(30);
+        pisca_LED(15);
     }
     vTaskDelay(5);
 }
@@ -38,7 +38,7 @@ void morse_O (void)
     int i;
     for(i=0;i<3;i++)
     {
-        pisca_LED(100);
+        pisca_LED(70);
     }
     vTaskDelay(5);
 }
